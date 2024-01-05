@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(255, 255, 255); /* Adjust the RGB values for your desired background color */
+    opacity: 1;
+}
+
+.vegetables {
+    color: blue;
+}
+
+#Apple {
+    font-size: xx-large;
+}
+
+#Watermelon {
+    color: blue;
+    font-style: italic;
+}
+
+a {
+    color: brown;
+}
+
+a:hover {
+    color: chocolate;
+}
+
+li:hover {
+    color: black;
+}
