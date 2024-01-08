@@ -1,0 +1,96 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffdf2; /* Soft blue background color */
+    color: red; /* Dark gray text color */
+    background-image: url('assets/book-texture-image1.jpg'); /* Book texture image */
+    background-repeat: repeat;
+}
+
+header {
+    background-color: #333; /* Dark background for header */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #cc0000; /* Adjusted red color for navigation */
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.book-list {
+    text-align: center;
+    background-color: #d6e4f0; /* Light blue background color for "Explore Our Books" section */
+    padding: 20px; /* Add padding to the container for better aesthetics */
+}
+
+.book {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgb(1, 197, 1);
+}
+
+.book img {
+    width: 150px;
+    height: 200px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.book h3 {
+    margin-top: 0;
+    color: #cc0000; /* Adjusted red color for book titles */
+}
+
+.book p {
+    color: #333333; /* Set the dark gray text color for the description */
+    font-size: 16px; /* Increase the font size for the description */
+    font-weight: bold; /* Bolden the description text */
+}
+
+.about-us {
+    padding: 40px 0;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #24c004;
+    color: white;
+}
+
+
+
+
