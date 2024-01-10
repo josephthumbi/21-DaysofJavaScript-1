@@ -32,7 +32,7 @@ function playGame(userChoice) {
 }
 
 // Example: Call playGame with user's choice
-const userChoice = "paper"; // You can change this to "paper" or "scissors"
+const userChoice = "rock"; // You can change this to "paper" or "scissors"
 playGame(userChoice);
 
 
